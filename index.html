@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>JS COUNTER</title>
+</head>
+<body>
+    
+    <section class="flex flex-col items-center">
+        <div>
+            <h2 class="text-4xl uppercase pt-10 font-bold text-center">Js Counter</h2>
+        </div>
+        <div>
+            <h2 id="display" class="text-[200px] font-bold text-center">0</h2>
+        </div>
+
+        <div class="md:flex items-center justify-center gap-5 w-full mx-auto p-5">
+            <button onclick="increase()" class="btn btn-active text-xl mb-2 md:w-auto w-full">increase</button>
+            <button onclick="Reset()" class="btn btn-active text-xl mb-2 md:w-auto w-full">Reset</button>
+            <button onclick="decrease()" class="btn btn-active text-xl mb-2 md:w-auto w-full">decrease</button>
+        </div>
+    </section>
+    <aside >
+        <p class="text-center text-black font-thin pt-3">Copyright © 2023 - All right reserved by mujahidislam400301@gmail.com</p>
+      </aside>
+    <script src="app.js"></script>
+
+</body>
+</html>
